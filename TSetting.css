@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Bungee&family=Chakra+Petch:ital,wght@0,700;1,600&family=Chivo&family=Dancing+Script:wght@500&family=Lato&family=Nunito:wght@200;500;700&family=Open+Sans:wght@500&family=Pacifico&family=Smooch+Sans&family=Space+Mono:wght@700&family=Tangerine:wght@700&display=swap');
+
+
+body {
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+nev{
+  width: 100%;
+  background-color: white;
+ /* box-shadow: -0px 2px 6px -2px #a8a8a8;*/
+  display: flex;
+  
+ border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+
+nev a{
+  padding: 8px 20px;
+}
+
+
+logo{
+  display: flex;justify-content: center;
+  
+}
+
+logo img{
+  width: 37px;
+  height: 37px;
+  position: relative;
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRv_XT2OnDgrEIUK-LOyALuySVH3IMYqL4KKRXvEMV5g_hfIeVD");
+  background-size: cover;
+  border-radius: 50px;
+  
+}
+.lind{
+  border-top: 1px solid transparent;
+ border-bottom: 1px solid transparent;
+
+}
+
+.lind div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}
+
+.lind div b{
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  left: 14px;
+}
+
+
+
+.lind{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+  width: 100vw;
+}
+
+
+.img {
+  position: relative;
+  left: -19px;
+  display: flex;
+  width: 15px;
+}
+
+
+.lind:hover {
+  color: white;
+  background-color: rgb(0,0,0,0.3);
+  border-top: 1px solid rgb(0,0,0,0.1);
+ border-bottom: 1px solid rgb(0,0,0,0.1);
+
+}
+
+
+#an{
+  position: relative;
+  left: 82px;
+  top: -13px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+
+.men_li ho li{
+  list-style: none;
+  position: relative;
+  left: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+}
+
+.men_li ho li h img{
+  border: solid black;
+  width: 21px;
+  height: 21px;
+  border-radius:50px; 
+  margin-right: 20px;
+}
+
+.nob{
+  border: solid transparent;
+}
+
+
+.men_li ho li h i{
+
+  width: 21px;
+  height: 21px;
+  font-size: 20px;
+  border-radius:50px; 
+  margin-right: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.men_li ho{
+  width: 100%;
+  position: relative;
+  top: 0px;
+  display: flex;
+  margin: 15px 0px; 
+  transition: 0.2s ;
+  border-top: 1px solid transparent;
+ border-bottom: 1px solid transparent;
+
+}
+
+.men_li ho:hover { 
+  color: white;
+  background-color: rgb(0,0,0,0.3);
+  border-top: 1px solid rgb(0,0,0,0.1);
+ border-bottom: 1px solid rgb(0,0,0,0.1);
+}
+
+
+.men_li ho li bo{
+  position: relative;
+  left: 190px;
+  float: right;
+  border: solyid;
+  font-size: 17px;
+}
+
+and{
+  font-size: 13px;
+  position: relative;
+  bottom: -120px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+and i{
+  font-size: 16px;
+  position: relative;
+  top: -3px;
+  left: 2px;
+  margin: 1px;
+}
+and a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
