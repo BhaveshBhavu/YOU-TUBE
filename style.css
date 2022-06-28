@@ -903,4 +903,133 @@ gun
 8:00
 
 */
+/* subscribe flot box  */
 
+.subscribe_box{
+  border: solidA;
+  display: flex;
+  overflow-x: auto; 
+  margin: 0px;
+  padding: 0px;
+  margin-top: 4px;
+}
+
+.subscribe_box div{
+  border: solidA red;
+  margin: 0px;
+  padding: 0px 0px;
+  width: 70px;
+  height: 80px;
+
+  
+}
+
+.all_subscribe{
+  border: solidA blue;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.all_subscribe h4{
+  color:  #3745DBA8;
+  position: relative;
+  top: -8px;
+  left: -3px;
+  font-weight: 500;
+  
+}
+
+.subscribe_box div di{
+  border: solidA #8D22C7;
+  width: 70px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.subscribe_box div  img{
+  border: solidA blue ;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+/*  border-radius: 50px;*/
+
+  
+  
+}
+
+.subscribe_box div p{
+  font-size: 10px;
+  margin: 0px;
+  display: flex;
+  height: 13px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  border: solidA ;
+  padding: 0px;
+}
+
+
+.sb_flot_menu{
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px ;
+  border-bottom:2px solid rgb(0, 0, 0,0.1); 
+}
+
+.sb_flot_menu p{
+  padding: 5px 8px;
+  margin: 5px 3px;
+  font-size: 14px;
+  font-weight: 400;
+  border:  solid rgb(0, 0, 0,0.1);
+  background: #f0f0f0;
+  border-radius: 30px;
+  color: #191B27E8;
+}
+
+.sb_flot_menu .p{
+  border: none;
+  text-transform: uppercase;  
+  font-weight: 700;
+  background-color: white;
+  color: #0459FFF5;
+}
+
+.sb_flot_menu .ap{
+  padding: 7px 9px;
+  margin: 4px;
+  font-size: 15px;
+  border: solid #454545;
+  background-color: #454545 ;
+  border-radius: 50px;
+  color: white;
+  margin-left: 7px ;
+  
+}
+
+.home_img{
+  width: 40px;
+  height: 40px;
+  border: solida;
+  position: relative;
+  bottom: -14px;
+  z-index: -477;
+  background-color: red;
+}
+
+.home_div{
+  position: relative;
+  top: -23px;
+}

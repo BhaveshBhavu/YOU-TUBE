@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Library</title>
+  
+  <!-- HTML -->
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <style>
+    
+  .Recent_men_box{
+    display: flex;
+    overflow-x: auto;
+    border: 2px solidA red;
+    padding-top: 30px; 
+    position: relative;
+    left: 0px;
+    
+  }
+   
+  .Recent_men_box::before{
+   content: "Recent";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  font-family: 400;
+  }
+   
+  .Recent_v_box {
+    border: solida;margin: 10px;
+  }
+  
+  .Recent_v_box img{
+    width: 160px;
+    height: 90px;
+    
+    
+  }
+   
+  .tex_box_r{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    border: solida blue;
+    
+  }
+   
+  .tex_box_r div {
+    width: 150px; 
+    height: 70px;
+  }
+   
+  .tex_box_r div p{
+    font-size: 14px;
+    margin: 0px;
+    
+  }
+   
+  .tex_box_r i{
+    position: relative;
+    top: 2px;
+    left: -1px;
+    font-size: 15px;
+  }
+   
+  .tex_box_r div t{
+    font-size: 13px;
+    margin: 0px;
+    font-family: 400;
+    color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    top: -5px;
+  }  
+    
+  .opsan{
+    border: solidA;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1) ;
+  }
+   
+  .opsan bt{
+    display: flex;
+    align-items: center;
+    border: solidA;
+  }
+   
+  .opsan bt i{
+    border: solidA;
+    padding: 10px;
+    padding-right: 15px; 
+  } 
+   
+   
+  .playlist_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;  
+  }
+   
+  .playlist_nav p{
+    padding: 4px 10px;
+    font-size: 18px;
+  }
+   
+  .playlist_nav i{
+    padding: 3px;
+  }
+   
+  .bx{
+    border: none;
+    margin-bottom: 30px; 
+  }
+  
+  .bx bt i img{
+    width: 40px;
+    height: 40px;
+  }
+  
+  </style>
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <!-- Project -->
+  
+ <!---- nav --->  
+ 
+  <nav id="nav">
+  
+  </nav>
+  
+  <!---- nav and --->
+  
+  <!---- Recent ----->
+  
+  <div class="Recent_men_box" id="rs">
+   
+   <script>
+     
+  for (var h = 0; h < 10; h++) {
+
+var img = new Array('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYredZIzStGljxyV1phuJ-7pq3qu9sM4f1RA&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPlRELdVZpp2VR6V6m1qYvn_QfI3lHllBsng&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEt2k3pNSgbO_KlkkZPur6DNx0o6_JQY8zQ&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMeOloTz1tU-8vZ4UY-AUdd95Hc_kxm_fByA&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWyVbROe8zcS4OcNl89umUrLum7P-7kC_ARw&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0pZlV93jUaGoCtCNSE2HmNeQEyC9u8BP7A&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNWPAl55v4Vp60moyZSCwEu6e_BJWeP23Pw&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrt4psC_DQjkHSj-jG4SoSdAFRJO5q3624Wg&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRukUPEn3HNQafSgtUmjQKmyCQa0tKtCxJe3g&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6VczzraSEPurKdP5uPDE3ZOhTkYApz-xm-w&usqp=CAU');
+
+var p = new Array('FUNNY Pakistani & Bollywood MEME R...', 'This Girl Punched Her Face For Free ....', 'World s Funniest & WTF Commercials ... ','BB Ki Vines-|Apple Juice|','ILAUGHI SLAP MYSELF! (FUNNIE...','BB Ki Vines- |Second Childhood','The Mummy Returns | Ashish C...','BB and Bancho join Sameer s business...','Why Kid Vs Kat was Discontinued...' ,'Wah Bete Moj Kardi 😂🤣|Trending ...');
+
+var t = new Array('D-MonchiK','DhiruMonchik', 'DhiruMonchik', 'BB Ki Vines ','Thugesh Unfiltered ','BB Ki Vines','ashish chanchlani vines','BB Ki Vines','Animation Vibes','MemaPur');
+
+for (var k = 0; k < 1; k++) {
+  
+  document.getElementById('rs').innerHTML += ` <div class="Recent_v_box">
+         <img src="${img[h]}" >
+           <div class="tex_box_r">
+            <div>
+           <p>${p[h]}</p>
+           <t>${t[h]}</t>
+            </div>
+           <i class="fa-solid fa-ellipsis-vertical"></i>
+           </div>
+         </div>`;
+  
+  }
+}
+
+   
+     
+     
+     
+   </script>
+    
+   
+   
+  </div>
+  
+  
+  <!---- Recent and ----->
+  
+  <!----- opsan ------>
+  
+ <div class="opsan" >
+   
+   <bt>
+  <i class="fa-solid fa-clock-rotate-left"></i><p>History</p> 
+   </bt>
+    
+   <bt>
+ <i class="fa-solid fa-clapperboard"></i>
+ <p>Your videos</p> 
+   </bt>
+   
+   <bt>
+ <i class="fa-solid fa-circle-arrow-down"></i> <p>Downloads</p> 
+   </bt>
+    
+   <bt>
+<i class="fa-regular fa-file-video"></i>
+ <p>Your movies</p> 
+   </bt>
+   
+   <bt>
+  <i class="fa-regular fa-clock"></i>
+  
+  <p>Watch later </p> 
+   </bt>
+   
+ </div>
+ 
+  <!----- opsan and ------>  
+  
+  
+  <!----- playlist  ------>   
+<div class="playlist_box">
+  
+  <div class="playlist_nav">
+    <p>Playlists</p>
+    <p>Recently added <i class="fa-solid fa-angle-down"></i></p>
+  </div>
+  
+  <div class="opsan bx">
+    
+    <bt>
+   <i class="fa-solid fa-plus"></i> <p>New playlist</p>
+    </bt>
+    
+    <bt>
+    <i class="fa-solid fa-thumbs-up"></i> <p>Liked videos</p>
+    </bt>
+    
+    <bt>
+    <i><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXl8nNNAFcIhGd8m0U065jwgN7RCc8-cX7cg&usqp=CAU" ></i> <p>fevret</p>
+    </bt>
+    
+    <bt>
+    <i><img src="https://pbs.twimg.com/media/DchMY8AV0AEoDWu.jpg" ></i> <p>Video</p>
+    </bt>
+    
+  </div>
+  
+</div>
+  <!----- playlist and ------>    
+  
+   <!----- flotin menu bottom ------>
+  <div class="menu">
+    <div class="home_div" onclick="home()">
+     <!--- <i class="fa-solid fa-house"></i>--->
+      
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8pERQwb7EpE9ktou9e88GOOahWnBFs0M-kyDGz4JgTQifZzHcEcWc4k4X&s=10" class="home_img" >
+      Home
+    </div>
+    <div class="Shorts" onclick="shorts()">
+      <img src="https://raw.githubusercontent.com/BhaveshBhavu/you-tube/master/Shorts.jpg" />
+      Shorts
+        
+    </div>
+    <div class="sub" onclick="up()">
+      <img src="https://icon-library.com/images/google-plus-circle-icon/google-plus-circle-icon-4.jpg" width="5px"   />
+    </div>
+    <div class="subscrip" onclick="sb()">
+     <img src="https://cdn-icons-png.flaticon.com/512/1536/1536013.png" width="20px" />
+      Subscriptions
+    </div>
+    <div class="libary" onclick="lb()">
+      <img src="https://static.thenounproject.com/png/4148446-200.png" width="15px" />
+      Library
+    </div>
+  </div>
+   <!----- flotin menu bottom  and ------>
+    <!----  video upload box    ---->
+  
+  <div class="video_UP" id="up">
+    
+    <div class="V_D_nev" style="background-color: white;">
+      
+      <h>Create</h>
+      
+      <i class="fa-solid fa-xmark" onclick="up()"></i>
+      
+    </div>
+    
+    <div>
+      
+     <btn>
+      <img src="https://raw.githubusercontent.com/BhaveshBhavu/you-tube/master/Shorts.jpg" /> 
+     </btn>Create a Short
+      
+    </div>
+    
+    <div>
+      
+     <btn>
+      <i class="fa-solid fa-upload"></i>
+     </btn>Upload a video
+      
+    </div>
+    
+    <div>
+    
+      <btn>
+      <i class="fa-solid fa-signal"></i>
+      </btn>Go live
+    
+    </div>
+    
+    
+    
+  </div>
+  
+  
+ <!---- and  video upload box    ---->  
+  
+  <script src="main.js"></script> 
+
+</body>
+</html>
